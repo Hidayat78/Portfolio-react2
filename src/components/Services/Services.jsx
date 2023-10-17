@@ -27,7 +27,7 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+          Hidayat ispum is simpley dummy text of printing of printing Lorem
           <br />
           ispum is simpley dummy text of printing
         </spane>
