@@ -31,6 +31,7 @@ const Contact = () => {
 
   return (
     <div className="contact-form" id="contact">
+      
       {/* left side copy and paste from work section */}
       <div className="w-left">
         <div className="awesome">
@@ -50,7 +51,7 @@ const Contact = () => {
           <input type="email" name="user_email" className="user" placeholder="Email"/>
           <textarea name="message" className="user" placeholder="Message"/>
           <input type="submit" value="Send" className="button"/>
-          <span>{done && "Thanks for Contacting me"}</span>
+          <span>{done &&  "Thanks for Contacting me"}</span>
           <div
             className="blur c-blur1"
             style={{ background: "var(--purple)" }}
