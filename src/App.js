@@ -14,6 +14,7 @@ function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
+  
     <div
       className="App"
       style={{
