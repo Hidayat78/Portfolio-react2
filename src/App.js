@@ -17,10 +17,12 @@ function App() {
   
     <div
       className="App"
-      style={{
+      style={
+        {
         background: darkMode ? "black" : "",
         color: darkMode ? "white" : "",
-      }}
+      }
+}
     >
       <Navbar />
       <Intro />
