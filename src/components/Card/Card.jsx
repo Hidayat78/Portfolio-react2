@@ -3,6 +3,7 @@ import "./Card.css";
 
 const Card = ({emoji,heading,detail,color}) => {
   return (
+    //card section is here
     <div className="card" style={{borderColor: {color}}}> 
       <img src={emoji} alt="" />
       <span>{heading}</span>
