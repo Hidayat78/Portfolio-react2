@@ -6,6 +6,7 @@ import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
 
 const Footer = () => {
+  
   return (
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%" }} />
@@ -18,6 +19,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
+    
   );
 };
 
